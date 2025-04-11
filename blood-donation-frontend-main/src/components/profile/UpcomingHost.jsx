@@ -78,7 +78,7 @@ const UpcomingHost = ({ allHosts }) => {
                       <div className="flex items-center text-sm">
                         <MapPin className="h-4 w-4 text-gray-500 mr-2" />
                         <span className="text-gray-700 truncate">
-                          {drive?.address}
+                          {drive?.address}, {drive?.city}, {drive?.state} - {drive?.zip}
                         </span>
                       </div>
                       <div className="flex items-center text-sm">
